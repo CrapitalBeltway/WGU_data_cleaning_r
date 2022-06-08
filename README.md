@@ -1,2 +1,15 @@
 # WGU_data_cleaning_r
-Data cleaning in R for WGU D206 in the MSDA
+
+This project was created for D206 (Data Cleaning) for the Master's of Science in Data Analytics program at Western Governors University.
+
+## Workflow of Project
+1. Detection
+..* Duplicates
+..* Missing Values
+..* Outliers
+2. Treatment
+..* Duplicates
+..* Missing Values
+..* Outliers
+3. Principal Component Analysis
+4. Re-expression of Categorical Variables
