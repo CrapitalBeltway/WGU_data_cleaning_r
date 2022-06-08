@@ -13,3 +13,5 @@ This project was created for D206 (Data Cleaning) for the Master's of Science in
   * Outliers
 3. Principal Component Analysis
 4. Re-expression of Categorical Variables
+
+The repository includes in ReadMe, the file containing the all of the R code, and the final cleaned data file.
