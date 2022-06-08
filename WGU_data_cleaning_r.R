@@ -157,7 +157,8 @@ medical_data_undupe$Anxiety=as.factor(medical_data_undupe$Anxiety)
 
 # Separate out variables for MICE, then impute
 # Predictive mean modeling used for the numeric variables, and logistic regression used for the binary variables
-g
+medical_data_undupe_missvar <- medical_data_undupe %>% select(CaseOrder, Children, Age, Income, Soft_drink, Overweight, Anxiety, Initial_days)
+medical_data_imp = mice(medical_data_undupe_missvar,m=5,method=c("","pmm","pmm","pmm","logreg","logreg","logreg","pmm"),maxit=20) 
 
 # Choose the imputation with the mean closest to the original
 summary(medical_data_undupe_missvar$Children)
