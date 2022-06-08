@@ -294,3 +294,6 @@ dummy <- dummyVars("~.", data=medical_data_clean)
 
 # Perform the encoding
 final_medical_data <- data.frame(predict(dummy, newdata=medical_data_clean))
+
+# Export the cleaned data
+write_csv(final_medical_data, "final_medical_data.csv")
