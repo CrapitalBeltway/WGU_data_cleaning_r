@@ -1,6 +1,6 @@
 # WGU_data_cleaning_r
 
-This project was created for D206 (Data Cleaning) for the Master's of Science in Data Analytics program at Western Governors University.
+This project was created for data cleaning class. 
 
 ## Outline
 1. Detection
